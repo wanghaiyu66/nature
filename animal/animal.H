@@ -1,8 +1,3 @@
-#ifndef classification_H
-#define classification_H
-
-#include <iostream>
-using namespace std;
 class animal
 {
     //virtual int damage;
@@ -19,18 +14,3 @@ public:
 //    virtual void die() = 0;
 
 };
-
-class plant
-{
-
-public:
-    plant();
-    ~plant();
-
-    virtual void grow() = 0;
-    virtual void reproduce() = 0;
-    virtual void die()  = 0;
-
-};
-
-#endif
